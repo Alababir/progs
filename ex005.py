@@ -12,11 +12,11 @@ n1 = int(input('Coloque o número inteiro: '))
 print(n1, 'Seu antecessor {}, Seu Sucessor {}'. format((n1-1), (n1+1)))
 
 n2 = int(input('Digite outro número '))
-print('Seu dobro {}, Seu triplo {}, Sua raiz {}'. format((n2*2), (n2*3), (n2**(1/2))))
+print('Seu dobro {}, Seu triplo {}, Sua raiz {:.2f}'. format((n2*2), (n2*3), (n2**(1/2))))
 
 n3 = float(input('Sua primeira nota: '))
 n4 = float(input('Sua segunda nota: '))
-print((n3+n4)/2)
+print('A média do Aluno é: {}'.format((n3+n4)/2))
 
 n5 = float(input('Coloque os metros: '))
 print('Centímetros {}, Milímetros {}'. format((n5*10), (n5*100)))
