@@ -16,7 +16,7 @@ print('Seu dobro {}, Seu triplo {}, Sua raiz {:.2f}'. format((n2*2), (n2*3), (n2
 
 n3 = float(input('Sua primeira nota: '))
 n4 = float(input('Sua segunda nota: '))
-print('A média do Aluno é: {}'.format((n3+n4)/2))
+print('A média do Aluno é: {:.1f}'.format((n3+n4)/2))
 
 n5 = float(input('Coloque os metros: '))
 print('Centímetros {}, Milímetros {}'. format((n5*10), (n5*100)))
